@@ -1,0 +1,44 @@
+.quote-box {
+  display: block;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+#quote {
+  display: block;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+#author {
+  display: block;
+  float: right;
+}
+
+.button-box {
+  margin: 0 0 2em 0;
+  display: block;
+}
+
+#tweet-quote {
+  margin-left: 2em;
+  font-size: 30px;
+}
+
+#new-quote {
+  float: right;
+  margin-right: 3em;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 2s;
+}
